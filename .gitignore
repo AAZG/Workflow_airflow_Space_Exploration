@@ -1,0 +1,5 @@
+.env
+plugins
+logs
+dags/__pycache__
+dags/dag_curse

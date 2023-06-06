@@ -1,0 +1,12 @@
+#Para lanzar el docker de Apache Airflows
+## Crear .env con lo siguiente 
+AIRFLOW_UID=50000
+## o ejecutar en consola
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+
+# ejecutar esto en consola
+mkdir -p ./dags ./logs ./plugins
+
+# para crear el contenedos con nuestra app de airflow
+docker-compose up -d
+docker-compose up airflow-init
