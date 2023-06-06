@@ -72,3 +72,10 @@ Enter in the website: https://localhost:8080
 
 ### Received notification:
 ![Received-notification](images/notification_received.png)
+
+
+## Gratitude to:
+- felipeduque
+- segurajhona
+- https://medium.com/@albcamina/apache-airflow-env%C3%ADo-de-correos-y-notificaciones-con-gmail-9d65ada276e6
+-
